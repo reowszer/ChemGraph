@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://argonne-lcf.github.io/ChemGraph/configuration_with_toml/">
+        <link rel="canonical" href="https://argonne-lcf.github.io/ChemGraph/registries/">
       
       
-        <link rel="prev" href="../streamlit_web_interface/">
+        <link rel="prev" href="../workflows/">
       
       
-        <link rel="next" href="../example_usage/">
+        <link rel="next" href="../calculators/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Configuration - ChemGraph</title>
+        <title>Tool and agent registries - ChemGraph</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#configuration" class="md-skip">
+        <a href="#tool-and-agent-registries" class="md-skip">
           Skip to content
         </a>
       
@@ -113,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Configuration
+              Tool and agent registries
             
           </span>
         </div>
@@ -757,10 +757,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../registries/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tool and agent registries
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -776,6 +803,48 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tool-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tool registry
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agent-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent registry
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -869,37 +938,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Configuration
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../configuration_with_toml/" class="md-nav__link">
         
   
   
@@ -915,114 +957,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#general-settings-and-interface-behavior" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        General settings and interface behavior
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#provider-endpoints" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Provider endpoints
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mcp-connection" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        MCP connection
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#durable-main-agent-state" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Durable main-agent state
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#evaluation-profiles" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Evaluation profiles
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#execution-backend" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Execution backend
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#which-interface-reads-what" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Which interface reads what?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Security
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1660,10 +1594,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#general-settings-and-interface-behavior" class="md-nav__link">
+  <a href="#tool-registry" class="md-nav__link">
     <span class="md-ellipsis">
       
-        General settings and interface behavior
+        Tool registry
       
     </span>
   </a>
@@ -1671,76 +1605,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#provider-endpoints" class="md-nav__link">
+  <a href="#agent-registry" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Provider endpoints
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mcp-connection" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        MCP connection
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#durable-main-agent-state" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Durable main-agent state
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#evaluation-profiles" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Evaluation profiles
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#execution-backend" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Execution backend
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#which-interface-reads-what" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Which interface reads what?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Security
+        Agent registry
       
     </span>
   </a>
@@ -1767,179 +1635,92 @@
   
 
 
-<h1 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h1>
-<p>A TOML file can hold repeatable non-secret endpoint, MCP, logging, evaluation,
-and execution settings. For a first run, CLI flags and provider environment
-variables are usually simpler.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>chemgraph<span class="w"> </span>run<span class="w"> </span>--config<span class="w"> </span>config.toml<span class="w"> </span>-q<span class="w"> </span><span class="s2">"What is the SMILES string for water?"</span>
+<h1 id="tool-and-agent-registries">Tool and agent registries<a class="headerlink" href="#tool-and-agent-registries" title="Permanent link">&para;</a></h1>
+<p>ChemGraph provides explicit registries for discovering in-process tools and
+worker graphs without eagerly importing every implementation. These registries
+are intended to support orchestration and, later, controlled benchmarking.</p>
+<p>The first registry release deliberately excludes MCP tools, generated IRI API
+tool collections, skills, selector middleware, and benchmark code. The
+<code>main_agent</code> graph is also excluded from both registries: it remains the
+orchestration graph that consumes registered workers.</p>
+<h2 id="tool-registry">Tool registry<a class="headerlink" href="#tool-registry" title="Permanent link">&para;</a></h2>
+<p><code>ToolRegistry</code> contains the LangChain <code>BaseTool</code> objects implemented in
+<code>chemgraph.tools</code>. The manifest stores import paths and metadata, so creating a
+registry does not import optional tool modules.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">chemgraph.registry</span><span class="w"> </span><span class="kn">import</span> <span class="n">ToolRegistry</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">registry</span> <span class="o">=</span> <span class="n">ToolRegistry</span><span class="p">()</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1"># Inspect metadata without loading tool implementations.</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">registry</span><span class="o">.</span><span class="n">names</span><span class="p">())</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="n">ase_specs</span> <span class="o">=</span> <span class="n">registry</span><span class="o">.</span><span class="n">specs</span><span class="p">(</span><span class="n">tags</span><span class="o">=</span><span class="p">{</span><span class="s2">"ase"</span><span class="p">})</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="c1"># Resolve only the tools needed by a graph or model.</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="n">tools</span> <span class="o">=</span> <span class="n">registry</span><span class="o">.</span><span class="n">resolve</span><span class="p">([</span><span class="s2">"molecule_name_to_smiles"</span><span class="p">,</span> <span class="s2">"run_ase"</span><span class="p">])</span>
 </code></pre></div>
-<h2 id="general-settings-and-interface-behavior">General settings and interface behavior<a class="headerlink" href="#general-settings-and-interface-behavior" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">[general]</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">model</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"gpt-4o-mini"</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">workflow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"single_agent"</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="n">output</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"last_message"</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="n">structured</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="n">report</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="n">recursion_limit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="n">human_supervised</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="k">[logging]</span>
-<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="n">level</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"WARNING"</span>
+<p>Tools can be selected by one or more tags. A tool must contain every requested
+tag to match:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">analysis_tools</span> <span class="o">=</span> <span class="n">registry</span><span class="o">.</span><span class="n">resolve</span><span class="p">(</span><span class="n">tags</span><span class="o">=</span><span class="p">{</span><span class="s2">"ase"</span><span class="p">,</span> <span class="s2">"analysis"</span><span class="p">})</span>
 </code></pre></div>
-<p>Streamlit consumes the <code>[general]</code> model, workflow, output, structured, report,
-and supervision defaults. On the CLI, use explicit flags for those settings:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>chemgraph<span class="w"> </span>run<span class="w"> </span>--model<span class="w"> </span>gpt-4o-mini<span class="w"> </span>--workflow<span class="w"> </span>single_agent<span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span>--output<span class="w"> </span>last_message<span class="w"> </span>-q<span class="w"> </span><span class="s2">"What is the SMILES string for water?"</span>
+<p>Some tools need optional Python packages, environment variables, or external
+executables. Use <code>availability()</code> to inspect those requirements, or set
+<code>require_available=True</code> to fail before loading the tool:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">status</span> <span class="o">=</span> <span class="n">registry</span><span class="o">.</span><span class="n">availability</span><span class="p">(</span><span class="s2">"run_docking"</span><span class="p">)</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">if</span> <span class="n">status</span><span class="o">.</span><span class="n">available</span><span class="p">:</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    <span class="n">docking</span> <span class="o">=</span> <span class="n">registry</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"run_docking"</span><span class="p">,</span> <span class="n">require_available</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">status</span><span class="o">.</span><span class="n">issues</span><span class="p">)</span>
 </code></pre></div>
-<p>The CLI currently honors selected general/config values such as
-<code>recursion_limit</code>, <code>enable_deepagent</code>, and <code>checkpoint_db</code>, but its parser has
-concrete defaults for several other fields. Therefore a historical <code>[general]</code>
-value may not override a CLI default. The CLI flag is the reliable source for
-model/workflow/output behavior.</p>
-<h2 id="provider-endpoints">Provider endpoints<a class="headerlink" href="#provider-endpoints" title="Permanent link">&para;</a></h2>
-<p>Environment variables are the recommended place for API keys and access tokens.
-TOML provider sections configure endpoints and an optional Argo username:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">[api.openai]</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">base_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://api.openai.com/v1"</span>
-<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
-<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="k">[api.argo]</span>
-<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">base_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://apps.inside.anl.gov/argoapi/v1"</span>
-<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="n">argo_user</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">""</span>
-<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
-<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="k">[api.vllm]</span>
-<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="c1"># Set this for custom OpenAI-compatible model IDs. An explicit empty value</span>
-<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="c1"># disables the one-release [api.openai] custom-endpoint fallback.</span>
-<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="n">base_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">""</span>
-<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>
-<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="k">[api.anthropic]</span>
-<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="n">base_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://api.anthropic.com"</span>
-<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>
-<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="k">[api.google]</span>
-<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="n">base_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://generativelanguage.googleapis.com/v1beta"</span>
-<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>
-<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="k">[api.alcf]</span>
-<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a><span class="n">base_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://inference-api.alcf.anl.gov/resource_server/sophia/vllm/v1"</span>
-<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>
-<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="k">[api.local]</span>
-<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="n">base_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"http://localhost:11434"</span>
+<p>Passing <code>require_available=False</code> does not make an unavailable dependency work;
+it only defers validation to the tool implementation.</p>
+<h2 id="agent-registry">Agent registry<a class="headerlink" href="#agent-registry" title="Permanent link">&para;</a></h2>
+<p><code>AgentRegistry</code> contains ChemGraph worker graph constructors. It provides the
+same canonical workflow names used by the command-line interface, except for
+<code>main_agent</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">chemgraph.registry</span><span class="w"> </span><span class="kn">import</span> <span class="n">AgentRegistry</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">registry</span> <span class="o">=</span> <span class="n">AgentRegistry</span><span class="p">()</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="nb">print</span><span class="p">(</span><span class="n">registry</span><span class="o">.</span><span class="n">names</span><span class="p">())</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="n">worker</span> <span class="o">=</span> <span class="n">registry</span><span class="o">.</span><span class="n">build</span><span class="p">(</span><span class="s2">"single_agent"</span><span class="p">,</span> <span class="n">llm</span><span class="o">=</span><span class="n">model</span><span class="p">)</span>
 </code></pre></div>
-<p>The selected model determines which section is consulted. See
-<a href="../models/">Models and authentication</a>.</p>
-<p>Base URLs resolve in this order: an explicit CLI/Python argument, the selected
-endpoint's canonical section, a supported legacy section, its environment
-variable, and finally its built-in default. For one release, <code>argo:</code> and custom
-model routes can read a legacy <code>[api.openai].base_url</code> when their canonical
-section is absent; ChemGraph logs migration guidance whenever it does so.</p>
-<p><code>[api.argo].argo_user</code> is the canonical Argo identity setting. The historical
-<code>[api.openai].argo_user</code> spelling remains supported for one release with a
-warning. Keep API keys and access tokens in endpoint-specific environment
-variables rather than TOML.</p>
-<h2 id="mcp-connection">MCP connection<a class="headerlink" href="#mcp-connection" title="Permanent link">&para;</a></h2>
-<p>Configure either streamable HTTP:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">[mcp]</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"http://localhost:9003/mcp/"</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">server_name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"ChemGraph General Tools"</span>
+<p>The registered workers are <code>single_agent</code>, <code>multi_agent</code>, <code>python_relp</code>,
+<code>graspa</code>, <code>mock_agent</code>, <code>graspa_mcp</code>, <code>rag_agent</code>, <code>single_agent_xanes</code>,
+<code>molecular_docking</code>, and <code>single_agent_iri</code>. Existing <code>python_repl</code>,
+<code>graspa_agent</code>, and <code>iri</code> spellings are supported as aliases.</p>
+<p>Standalone workers keep their existing default in-memory checkpointer. When a
+worker is handed to an orchestration graph, use <code>as_subagent()</code> or
+<code>as_subagents()</code>. These adapters compile the worker with <code>checkpointer=None</code> so
+it inherits checkpointing from the parent graph:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">workers</span> <span class="o">=</span> <span class="n">registry</span><span class="o">.</span><span class="n">as_subagents</span><span class="p">(</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    <span class="p">[</span><span class="s2">"single_agent"</span><span class="p">,</span> <span class="s2">"python_relp"</span><span class="p">],</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    <span class="n">llm</span><span class="o">=</span><span class="n">model</span><span class="p">,</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="p">)</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="n">main_graph</span> <span class="o">=</span> <span class="n">construct_main_agent_graph</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">subagents</span><span class="o">=</span><span class="n">workers</span><span class="p">)</span>
 </code></pre></div>
-<p>or a stdio launch command:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">[mcp]</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">command</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"python -m chemgraph.mcp.mcp_tools"</span>
-<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">server_name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"ChemGraph General Tools"</span>
+<p><code>as_subagents()</code> validates names, availability, constructor loading, and
+constructor options for the whole requested set before invoking any constructor.
+Per-worker constructor arguments are supplied through <code>options</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">workers</span> <span class="o">=</span> <span class="n">registry</span><span class="o">.</span><span class="n">as_subagents</span><span class="p">(</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    <span class="p">[</span><span class="s2">"single_agent"</span><span class="p">,</span> <span class="s2">"graspa_mcp"</span><span class="p">],</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    <span class="n">llm</span><span class="o">=</span><span class="n">model</span><span class="p">,</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    <span class="n">options</span><span class="o">=</span><span class="p">{</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>        <span class="s2">"graspa_mcp"</span><span class="p">:</span> <span class="p">{</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>            <span class="s2">"executor_tools"</span><span class="p">:</span> <span class="n">executor_tools</span><span class="p">,</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>            <span class="s2">"analysis_tools"</span><span class="p">:</span> <span class="n">analysis_tools</span><span class="p">,</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>        <span class="p">}</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>    <span class="p">},</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="p">)</span>
 </code></pre></div>
-<p>Do not set both unless the consuming interface explicitly supports multiple
-definitions. See <a href="../mcp_servers/">MCP servers</a>.</p>
-<h2 id="durable-main-agent-state">Durable main-agent state<a class="headerlink" href="#durable-main-agent-state" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="k">[general]</span>
-<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">workflow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"main_agent"</span>
-<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="n">checkpoint_db</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"~/.chemgraph/checkpoints.db"</span>
-<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="n">enable_deepagent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span>
-</code></pre></div>
-<p><code>main_agent</code> still requires interactive CLI mode. Deep Agent is a
-development-only capability with broad local access; leave it disabled unless
-you understand the security boundary.</p>
-<h2 id="evaluation-profiles">Evaluation profiles<a class="headerlink" href="#evaluation-profiles" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">[eval]</span>
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">default_profile</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"standard"</span>
-<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
-<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="k">[eval.profiles.standard]</span>
-<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="n">dataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"./evaluation/questions.json"</span>
-<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="n">workflow_types</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s2">"single_agent"</span><span class="p">]</span>
-<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="n">judge_type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"structured"</span>
-<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="n">structured_output</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span>
-<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="n">recursion_limit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">50</span>
-<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="n">max_queries</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
-</code></pre></div>
-<p>Profile fields may be overridden by <code>chemgraph eval</code> flags. See
-<a href="../evaluation/">Evaluation</a> for dataset formats and judge modes.</p>
-<h2 id="execution-backend">Execution backend<a class="headerlink" href="#execution-backend" title="Permanent link">&para;</a></h2>
-<p>Distributed execution reads the <code>[execution]</code> hierarchy and may also accept
-backend-specific environment variables. A minimal local choice is:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="k">[execution]</span>
-<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="n">backend</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"local"</span>
-</code></pre></div>
-<p>Parsl, Ensemble Launcher, Globus Compute, and transfer settings are deployment
-specific. Start from the runnable examples linked in
-<a href="../hpc_and_academy/">HPC and Academy</a> rather than copying credentials or endpoint
-IDs into documentation.</p>
-<h2 id="which-interface-reads-what">Which interface reads what?<a class="headerlink" href="#which-interface-reads-what" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Setting area</th>
-<th>CLI run</th>
-<th>Streamlit</th>
-<th>Evaluation</th>
-<th>Execution layer</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>[general]</code></td>
-<td>Partial; prefer explicit run flags</td>
-<td>Yes</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td><code>[api.*]</code></td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td><code>[mcp]</code></td>
-<td>Yes</td>
-<td>Not the primary UI control</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td><code>[logging]</code></td>
-<td>Yes</td>
-<td>Application-dependent</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td><code>[eval]</code>, <code>[eval.profiles.*]</code></td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td><code>[execution]</code></td>
-<td>Through backend tools</td>
-<td>Through backend tools</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-<h2 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h2>
-<p>Never commit API keys, bearer tokens, endpoint secrets, or private paths. Pass
-secrets through environment variables or an approved secret manager. Sanitize
-configuration files before attaching them to bug reports.</p>
+<p>Both registries support explicit custom registration with <code>ToolSpec</code> or
+<code>AgentSpec</code>. Passing <code>replace=True</code> allows an existing canonical specification
+to be replaced. An agent replacement may retain, remove, or add aliases owned
+by that same canonical agent, but it cannot claim a canonical name or alias
+owned by another entry.</p>
+<p>Batch prevalidation catches registry, availability, import, and constructor
+option errors. It does not roll back workers if a constructor itself raises at
+runtime after an earlier worker was constructed.</p>
 
 
 
@@ -1969,7 +1750,7 @@ configuration files before attaching them to bug reports.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../streamlit_web_interface/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Streamlit interface">
+          <a href="../workflows/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Workflows">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1979,20 +1760,20 @@ configuration files before attaching them to bug reports.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Streamlit interface
+                Workflows
               </div>
             </div>
           </a>
         
         
           
-          <a href="../example_usage/" class="md-footer__link md-footer__link--next" aria-label="Next: Examples">
+          <a href="../calculators/" class="md-footer__link md-footer__link--next" aria-label="Next: Calculators">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Examples
+                Calculators
               </div>
             </div>
             <div class="md-footer__button md-icon">
